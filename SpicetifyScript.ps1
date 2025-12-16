@@ -10,7 +10,6 @@ if (!(Test-Path -Path $Path)) {
     Write-Host "Installing Spotify..." -ForegroundColor Cyan
     Start-Process -FilePath $spotifyInstaller -Wait
     Write-Host "Spotify installed!" -ForegroundColor Green
-    exit
 }
 
 Write-Host "Closing Spotify..." -ForegroundColor Yellow
